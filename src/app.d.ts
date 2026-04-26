@@ -1,6 +1,5 @@
 // See https://kit.svelte.dev/docs/types#app
-
-import type { Database } from 'your-d1-types';
+// Cloudflare D1 and KV bindings
 
 declare global {
     namespace App {
@@ -10,14 +9,24 @@ declare global {
                 member_id: string;
                 household_id: string;
             };
-            db: Database;
+            db: D1Database;
             kv: {
                 sessions: KVNamespace;
                 cache: KVNamespace;
-            }
+            };
         }
         // interface PageData {}
-        // interface Platform {}
+        interface Platform {
+            env: {
+                DB: D1Database;
+                SESSIONS: KVNamespace;
+                CACHE: KVNamespace;
+            };
+            context: {
+                waitUntil(promise: Promise<unknown>): void;
+            };
+            caches: CacheStorage & { default: Cache };
+        }
     }
 }
 
