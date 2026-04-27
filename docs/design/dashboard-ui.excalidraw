@@ -1,0 +1,40 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {"type":"text","id":"title","x":100,"y":20,"width":280,"height":32,"text":"Dashboard UI (Mobile-first)","fontSize":22,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"center","verticalAlign":"middle","originalText":"Dashboard UI (Mobile-first)","autoResize":true},
+
+    {"type":"rectangle","id":"phone","x":100,"y":60,"width":280,"height":600,"roundness":{"type":3},"backgroundColor":"transparent","fillStyle":"solid","strokeColor":"#999"},
+
+    {"type":"rectangle","id":"topbar","x":110,"y":70,"width":260,"height":44,"backgroundColor":"#4f46e5","fillStyle":"solid","strokeColor":"#4f46e5","boundElements":[{"id":"t_topbar","type":"text"}]},
+    {"type":"text","id":"t_topbar","x":115,"y":82,"width":250,"height":20,"text":"家庭庫存  [=]","fontSize":16,"fontFamily":1,"strokeColor":"#ffffff","textAlign":"center","verticalAlign":"middle","containerId":"topbar","originalText":"家庭庫存  [=]","autoResize":true},
+
+    {"type":"rectangle","id":"alert_section","x":110,"y":124,"width":260,"height":130,"roundness":{"type":3},"backgroundColor":"#ffc9c9","fillStyle":"solid","strokeColor":"#dc2626","boundElements":[{"id":"t_alert_title","type":"text"}]},
+    {"type":"text","id":"t_alert_title","x":115,"y":132,"width":250,"height":20,"text":"警示區塊","fontSize":16,"fontFamily":1,"strokeColor":"#dc2626","textAlign":"left","verticalAlign":"middle","containerId":"alert_section","originalText":"警示區塊","autoResize":true},
+
+    {"type":"rectangle","id":"alert1","x":120,"y":160,"width":240,"height":36,"roundness":{"type":3},"backgroundColor":"#fff","fillStyle":"solid","strokeColor":"#fca5a5","boundElements":[{"id":"t_alert1","type":"text"}]},
+    {"type":"text","id":"t_alert1","x":125,"y":170,"width":230,"height":20,"text":"牛奶 — 3天後到期","fontSize":14,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"left","verticalAlign":"middle","containerId":"alert1","originalText":"牛奶 — 3天後到期","autoResize":true},
+
+    {"type":"rectangle","id":"alert2","x":120,"y":204,"width":240,"height":36,"roundness":{"type":3},"backgroundColor":"#fff","fillStyle":"solid","strokeColor":"#fca5a5","boundElements":[{"id":"t_alert2","type":"text"}]},
+    {"type":"text","id":"t_alert2","x":125,"y":214,"width":230,"height":20,"text":"洗碗精 — 庫存不足 (1)","fontSize":14,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"left","verticalAlign":"middle","containerId":"alert2","originalText":"洗碗精 — 庫存不足 (1)","autoResize":true},
+
+    {"type":"rectangle","id":"quick_nav","x":110,"y":264,"width":260,"height":60,"roundness":{"type":3},"backgroundColor":"#f1f5f9","fillStyle":"solid","strokeColor":"#cbd5e1","boundElements":[{"id":"t_nav","type":"text"}]},
+    {"type":"text","id":"t_nav","x":115,"y":280,"width":250,"height":28,"text":"[物品清單]  [分類]  [成員]","fontSize":15,"fontFamily":1,"strokeColor":"#4f46e5","textAlign":"center","verticalAlign":"middle","containerId":"quick_nav","originalText":"[物品清單]  [分類]  [成員]","autoResize":true},
+
+    {"type":"rectangle","id":"recent","x":110,"y":334,"width":260,"height":140,"roundness":{"type":3},"backgroundColor":"#f8fafc","fillStyle":"solid","strokeColor":"#e2e8f0","boundElements":[{"id":"t_recent_title","type":"text"}]},
+    {"type":"text","id":"t_recent_title","x":115,"y":342,"width":250,"height":20,"text":"最近更新","fontSize":16,"fontFamily":1,"strokeColor":"#334155","textAlign":"left","verticalAlign":"middle","containerId":"recent","originalText":"最近更新","autoResize":true},
+
+    {"type":"rectangle","id":"item_card1","x":120,"y":368,"width":240,"height":44,"roundness":{"type":3},"backgroundColor":"#fff","fillStyle":"solid","strokeColor":"#cbd5e1","boundElements":[{"id":"t_card1","type":"text"}]},
+    {"type":"text","id":"t_card1","x":125,"y":378,"width":230,"height":24,"text":"🍳 炒鍋  x1  廚房  [編輯]","fontSize":14,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"left","verticalAlign":"middle","containerId":"item_card1","originalText":"🍳 炒鍋  x1  廚房  [編輯]","autoResize":true},
+
+    {"type":"rectangle","id":"item_card2","x":120,"y":420,"width":240,"height":44,"roundness":{"type":3},"backgroundColor":"#fff","fillStyle":"solid","strokeColor":"#cbd5e1","boundElements":[{"id":"t_card2","type":"text"}]},
+    {"type":"text","id":"t_card2","x":125,"y":430,"width":230,"height":24,"text":"🧴 洗髮精  x2  浴室  [編輯]","fontSize":14,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"left","verticalAlign":"middle","containerId":"item_card2","originalText":"🧴 洗髮精  x2  浴室  [編輯]","autoResize":true},
+
+    {"type":"rectangle","id":"fab","x":320,"y":600,"width":52,"height":52,"roundness":{"type":3},"backgroundColor":"#4f46e5","fillStyle":"solid","strokeColor":"#4f46e5","boundElements":[{"id":"t_fab","type":"text"}]},
+    {"type":"text","id":"t_fab","x":325,"y":612,"width":42,"height":28,"text":"+","fontSize":24,"fontFamily":1,"strokeColor":"#ffffff","textAlign":"center","verticalAlign":"middle","containerId":"fab","originalText":"+","autoResize":true}
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}
