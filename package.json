@@ -1,0 +1,32 @@
+{
+	"name": "family-inventory",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vitest run",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-cloudflare": "^4.1.0",
+		"@sveltejs/kit": "^2.5.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.2",
+		"@types/node": "^20.11.30",
+		"autoprefixer": "^10.4.19",
+		"postcss": "^8.4.38",
+		"svelte": "^4.2.12",
+		"svelte-check": "^3.6.8",
+		"tailwindcss": "^4.0.0-alpha.14",
+		"tslib": "^2.6.2",
+		"typescript": "^5.4.3",
+		"vite": "^5.2.8",
+		"vitest": "^4.1.5"
+	},
+	"type": "module",
+	"dependencies": {
+		"nanoid": "^5.0.6"
+	}
+}

@@ -1,0 +1,21 @@
+node_modules/
+.svelte-kit/
+build/
+.cloudflare/
+dist/
+
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Cloudflare
+.wrangler/
+
+# Build artifacts
+.output/
+
+# Test artifacts
+test-results/
+playwright-report/
+coverage/
