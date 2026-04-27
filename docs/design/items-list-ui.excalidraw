@@ -1,0 +1,34 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {"type":"text","id":"title","x":80,"y":20,"width":320,"height":32,"text":"物品清單頁 UI (Mobile-first)","fontSize":22,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"center","verticalAlign":"middle","originalText":"物品清單頁 UI (Mobile-first)","autoResize":true},
+
+    {"type":"rectangle","id":"phone","x":80,"y":60,"width":320,"height":640,"roundness":{"type":3},"backgroundColor":"transparent","fillStyle":"solid","strokeColor":"#999"},
+
+    {"type":"rectangle","id":"topbar","x":90,"y":70,"width":300,"height":44,"backgroundColor":"#4f46e5","fillStyle":"solid","strokeColor":"#4f46e5","boundElements":[{"id":"t_topbar","type":"text"}]},
+    {"type":"text","id":"t_topbar","x":95,"y":82,"width":290,"height":20,"text":"物品清單  [+]","fontSize":16,"fontFamily":1,"strokeColor":"#ffffff","textAlign":"center","verticalAlign":"middle","containerId":"topbar","originalText":"物品清單  [+]","autoResize":true},
+
+    {"type":"rectangle","id":"search","x":90,"y":124,"width":300,"height":40,"roundness":{"type":3},"backgroundColor":"#f8fafc","fillStyle":"solid","strokeColor":"#cbd5e1","boundElements":[{"id":"t_search","type":"text"}]},
+    {"type":"text","id":"t_search","x":95,"y":136,"width":290,"height":20,"text":"搜尋物品...  [Q]","fontSize":15,"fontFamily":1,"strokeColor":"#94a3b8","textAlign":"left","verticalAlign":"middle","containerId":"search","originalText":"搜尋物品...  [Q]","autoResize":true},
+
+    {"type":"rectangle","id":"filter_row","x":90,"y":174,"width":300,"height":36,"roundness":{"type":3},"backgroundColor":"#f1f5f9","fillStyle":"solid","strokeColor":"#e2e8f0","boundElements":[{"id":"t_filter","type":"text"}]},
+    {"type":"text","id":"t_filter","x":95,"y":184,"width":290,"height":20,"text":"全部  廚房  浴室  倉庫  [v 排序]","fontSize":14,"fontFamily":1,"strokeColor":"#475569","textAlign":"left","verticalAlign":"middle","containerId":"filter_row","originalText":"全部  廚房  浴室  倉庫  [v 排序]","autoResize":true},
+
+    {"type":"rectangle","id":"card1","x":90,"y":220,"width":300,"height":72,"roundness":{"type":3},"backgroundColor":"#ffffff","fillStyle":"solid","strokeColor":"#e2e8f0","boundElements":[{"id":"t_c1","type":"text"}]},
+    {"type":"text","id":"t_c1","x":95,"y":230,"width":290,"height":50,"text":"🍳 炒鍋\n數量: 1  |  廚房  |  2024-06-01 到期","fontSize":14,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"left","verticalAlign":"top","containerId":"card1","originalText":"🍳 炒鍋\n數量: 1  |  廚房  |  2024-06-01 到期","autoResize":true},
+
+    {"type":"rectangle","id":"card2","x":90,"y":302,"width":300,"height":72,"roundness":{"type":3},"backgroundColor":"#ffffff","fillStyle":"solid","strokeColor":"#e2e8f0","boundElements":[{"id":"t_c2","type":"text"}]},
+    {"type":"text","id":"t_c2","x":95,"y":312,"width":290,"height":50,"text":"🧴 洗髮精\n數量: 2  |  浴室  |  無到期日","fontSize":14,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"left","verticalAlign":"top","containerId":"card2","originalText":"🧴 洗髮精\n數量: 2  |  浴室  |  無到期日","autoResize":true},
+
+    {"type":"rectangle","id":"card3_low","x":90,"y":384,"width":300,"height":72,"roundness":{"type":3},"backgroundColor":"#ffc9c9","fillStyle":"solid","strokeColor":"#fca5a5","boundElements":[{"id":"t_c3","type":"text"}]},
+    {"type":"text","id":"t_c3","x":95,"y":394,"width":290,"height":50,"text":"🧹 洗碗精  [!低庫存]\n數量: 1  |  廚房  |  min: 2","fontSize":14,"fontFamily":1,"strokeColor":"#991b1b","textAlign":"left","verticalAlign":"top","containerId":"card3_low","originalText":"🧹 洗碗精  [!低庫存]\n數量: 1  |  廚房  |  min: 2","autoResize":true},
+
+    {"type":"rectangle","id":"fab","x":348,"y":652,"width":52,"height":52,"roundness":{"type":3},"backgroundColor":"#4f46e5","fillStyle":"solid","strokeColor":"#4f46e5","boundElements":[{"id":"t_fab","type":"text"}]},
+    {"type":"text","id":"t_fab","x":353,"y":664,"width":42,"height":28,"text":"+","fontSize":24,"fontFamily":1,"strokeColor":"#ffffff","textAlign":"center","verticalAlign":"middle","containerId":"fab","originalText":"+","autoResize":true}
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}
